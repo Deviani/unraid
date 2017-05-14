@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>terraria</Name>
+  <Date>2017-04-02</Date>
+  <WebUI></WebUI>
+  <Description>
+    Docker container to run a Terraria Server with tShock.
+  </Description>
+  <Overview>
+   Docker container to run a Terraria Server with tShock. 
+  </Overview>
+  <Support></Support>
+  <Registry>https://hub.docker.com/r/deviani/terraria</Registry>
+  <GitHub>https://github.com/deviani/terraria</GitHub>
+  <Repository>deviani/terraria</Repository>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>7777</HostPort>
+        <ContainerPort>7777</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/world</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+        <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/logs</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/MulletBoy/terraria/master/Terraria_icon.jpg</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
