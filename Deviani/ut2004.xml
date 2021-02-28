@@ -2,7 +2,7 @@
 <Containers>
   <Name>ut2004</Name>
   <Date>2021-02-28</Date>
-  <WebUI>https://[IP]:[PORT:10443]</WebUI>
+  <WebUI>https://[IP]:[PORT:10080]</WebUI>
   <Description>
     Docker container to run a ut2004 Server 
   </Description>
