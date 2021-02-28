@@ -12,7 +12,7 @@
   <Support></Support>
   <Registry>https://hub.docker.com/r/captbrick/ut2004</Registry>
   <GitHub>https://github.com/RytisLT/docker-ut2004</GitHub>
-  <Repository>RytisLT/docker-ut2004</Repository>
+  <Repository>rytislt/docker-ut2004</Repository>
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
