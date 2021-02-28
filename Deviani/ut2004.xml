@@ -2,7 +2,7 @@
 <Containers>
   <Name>ut2004</Name>
   <Date>2021-02-28</Date>
-  <WebUI>https://[IP]:[PORT:10080]</WebUI>
+  <WebUI>http://[IP]:[PORT:10080]</WebUI>
   <Description>
     Docker container to run a ut2004 Server 
   </Description>
@@ -10,40 +10,80 @@
    Docker container to run a ut2004 Server 
   </Overview>
   <Support></Support>
-  <Registry>https://hub.docker.com/r/reflectivecode/ut2004/</Registry>
-  <GitHub>https://github.com/reflectivecode/ut2004</GitHub>
-  <Repository>reflectivecode/ut2004</Repository>
+  <Registry></Registry>
+  <GitHub>https://github.com/OpenSourceLAN/gameservers-docker/tree/master/ut2004</GitHub>
+  <Repository>gameservers-docker/ut2004</Repository>
   <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>10080</HostPort>
+        <HostPort>7080</HostPort>
         <ContainerPort>80</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
 	  <Port>
-        <HostPort>10777</HostPort>
+        <HostPort>7777</HostPort>
         <ContainerPort>7777</ContainerPort>
         <Protocol>udp</Protocol>
       </Port>
 	  <Port>
-        <HostPort>10778</HostPort>
+        <HostPort>7778</HostPort>
         <ContainerPort>7778</ContainerPort>
         <Protocol>udp</Protocol>
+      </Port>
+	  <Port>
+        <HostPort>7787</HostPort>
+        <ContainerPort>7787</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+	  <Port>
+        <HostPort>28902</HostPort>
+        <ContainerPort>28902</ContainerPort>
+        <Protocol>tcp</Protocol>
       </Port>
     </Publish>
   </Networking>
   <Data></Data>
   <Environment>
     <Variable>
-      <Value>[Engine.AccessControl];AdminPassword=password123;[UWeb.WebServer];bEnabled=True</Value>
-      <Name>CONFIG_1</Name>
+      <Name>SV_HOSTNAME</Name>
+      <Value>Casa Deviani</Value>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>CTF-FACECLASSIC?game=XGame.xCTFGame</Value>
-      <Name>UT2004_CMD</Name>
+      <Name>SV_PASSWORD</Name>
+      <Value>WelcomeToMyHome</Value>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Name>RCON_PASSWORD</Name>
+      <Value>UTSnowbeast9!7</Value>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Name>MAP</Name>
+      <Value></Value>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Name>MAXPLAYERS</Name>
+      <Value>20</Value>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Name>INSTAGIB</Name>
+      <Value></Value>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Name>MUTATORS</Name>
+      <Value></Value>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Name>OTHER_OPTS</Name>
+      <Value></Value>
       <Mode/>
     </Variable>
     <Variable>
