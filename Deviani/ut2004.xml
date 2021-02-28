@@ -47,46 +47,6 @@
   <Data></Data>
   <Environment>
     <Variable>
-      <Name>SV_HOSTNAME</Name>
-      <Value>Casa Deviani</Value>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Name>SV_PASSWORD</Name>
-      <Value>WelcomeToMyHome</Value>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Name>RCON_PASSWORD</Name>
-      <Value>UTSnowbeast9!7</Value>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Name>MAP</Name>
-      <Value></Value>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Name>MAXPLAYERS</Name>
-      <Value>20</Value>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Name>INSTAGIB</Name>
-      <Value></Value>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Name>MUTATORS</Name>
-      <Value></Value>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Name>OTHER_OPTS</Name>
-      <Value></Value>
-      <Mode/>
-    </Variable>
-    <Variable>
       <Value>99</Value>
       <Name>PUID</Name>
       <Mode/>
