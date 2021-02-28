@@ -10,7 +10,7 @@
    Docker container to run a ut2004 Server 
   </Overview>
   <Support></Support>
-  <Registry></Registry>
+  <Registry>https://hub.docker.com/r/deviani/ut2004</Registry>
   <GitHub>https://github.com/OpenSourceLAN/gameservers-docker/tree/master/ut2004</GitHub>
   <Repository>gameservers-docker/ut2004</Repository>
   <Privileged>false</Privileged>
